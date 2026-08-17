@@ -192,7 +192,7 @@ for k in range(len(inicio)):
         
         with open("teste_tabela.txt", "w") as f:
         
-            f.write("Tabela de observabilidade - Troianos - IAG\n\n\n")
+            f.write(f"Tabela de observabilidade - Troianos - {site}\n\n\n")
         
             f.write(f"Iluninação da lua: {efem['lunar_illum'][0]:.1f} %\n\n\n")
         
